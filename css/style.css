@@ -39,6 +39,7 @@ h2 {
 
         #main table {
             width: 780px;
+            border: solid 1px lightgrey;
         }
 
             #main table th {
@@ -50,8 +51,23 @@ h2 {
 
             #main table td {
                 padding: 5px;
+                vertical-align: middle;
+                border: solid 1px lightgrey;
             }
 
+            #main table td:first-child {
+                width: 100px;
+                padding-left: 10px;
+            }
+
+            #main table td:last-child {
+                width: 80px;
+            }
+/*
+            #main table, th, td {
+                border: 1px solid black;
+            }
+*/
     #sidebar {
         width: 200px;
         float: left;
